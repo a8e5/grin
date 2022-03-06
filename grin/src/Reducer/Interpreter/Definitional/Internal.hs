@@ -3,6 +3,7 @@
 {-# LANGUAGE TemplateHaskell #-}
 module Reducer.Interpreter.Definitional.Internal where
 
+import Data.Fix (Fix (..))
 import Control.Monad.Fail
 import Control.Monad.Reader (MonadReader(..))
 import Control.Monad.State (MonadState(..))

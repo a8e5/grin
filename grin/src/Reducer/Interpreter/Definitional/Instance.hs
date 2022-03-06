@@ -6,6 +6,7 @@
 {-# LANGUAGE TypeFamilies #-}
 module Reducer.Interpreter.Definitional.Instance where
 
+import Data.Fix (Fix (..))
 import Control.Monad.Fail
 import Control.Monad.Reader (MonadReader(..))
 import Control.Monad.State (MonadState(..))

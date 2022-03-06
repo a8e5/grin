@@ -229,6 +229,7 @@ library
     monad-gen,
     free,
     bytestring,
+    data-fix,
     llvm-hs-pure ==7.*,
     llvm-hs-pretty >=0.6.1,
     inline-c,

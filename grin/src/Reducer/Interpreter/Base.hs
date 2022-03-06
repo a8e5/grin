@@ -6,6 +6,7 @@ module Reducer.Interpreter.Base
   ( module Reducer.Interpreter.Base
   ) where
 
+import Data.Fix (Fix (..))
 import Control.Monad.Fail
 import Control.Monad.Trans (MonadIO)
 import Data.Function (fix)
